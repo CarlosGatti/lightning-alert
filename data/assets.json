@@ -1,0 +1,747 @@
+[
+    {
+        "assetName": "Mayer Park",
+        "quadKey": "023112133002",
+        "assetOwner": "02115"
+    },
+    {
+        "assetName": "Sunshine Wall",
+        "quadKey": "023112133003",
+        "assetOwner": "325"
+    },
+    {
+        "assetName": "Cruickshank Forge",
+        "quadKey": "023112133000",
+        "assetOwner": "313"
+    },
+    {
+        "assetName": "Syed Pines",
+        "quadKey": "023112133001",
+        "assetOwner": "259"
+    },
+    {
+        "assetName": "Dare Isle",
+        "quadKey": "023112310111",
+        "assetOwner": "363"
+    },
+    {
+        "assetName": "Guilford Squares",
+        "quadKey": "023112310110",
+        "assetOwner": "70395"
+    },
+    {
+        "assetName": "Jane Underpass",
+        "quadKey": "023112310113",
+        "assetOwner": "178"
+    },
+    {
+        "assetName": "Hilpert Shores",
+        "quadKey": "023112310112",
+        "assetOwner": "360"
+    },
+    {
+        "assetName": "Wolff Canyon",
+        "quadKey": "023112310230",
+        "assetOwner": "3996"
+    },
+    {
+        "assetName": "Brady Loaf",
+        "quadKey": "023112310232",
+        "assetOwner": "06591"
+    },
+    {
+        "assetName": "Fahey Brooks",
+        "quadKey": "023112310233",
+        "assetOwner": "86315"
+    },
+    {
+        "assetName": "Christian Glens",
+        "quadKey": "023112133010",
+        "assetOwner": "9974"
+    },
+    {
+        "assetName": "Erie Lake",
+        "quadKey": "023112133013",
+        "assetOwner": "226"
+    },
+    {
+        "assetName": "Hudson Land",
+        "quadKey": "023112133012",
+        "assetOwner": "261"
+    },
+    {
+        "assetName": "Inger Drive",
+        "quadKey": "023112131310",
+        "assetOwner": "47332"
+    },
+    {
+        "assetName": "Schaden Station",
+        "quadKey": "023112131311",
+        "assetOwner": "3432"
+    },
+    {
+        "assetName": "Jess Inlet",
+        "quadKey": "023112131312",
+        "assetOwner": "79323"
+    },
+    {
+        "assetName": "Bernier Camp",
+        "quadKey": "023112131313",
+        "assetOwner": "88167"
+    },
+    {
+        "assetName": "Hyatt Trail",
+        "quadKey": "023112310213",
+        "assetOwner": "746"
+    },
+    {
+        "assetName": "Constance Land",
+        "quadKey": "023112132332",
+        "assetOwner": "917"
+    },
+    {
+        "assetName": "Sariah Trafficway",
+        "quadKey": "023112131220",
+        "assetOwner": "346"
+    },
+    {
+        "assetName": "Little Lights",
+        "quadKey": "023112133200",
+        "assetOwner": "87042"
+    },
+    {
+        "assetName": "Novella Islands",
+        "quadKey": "023112131130",
+        "assetOwner": "06149"
+    },
+    {
+        "assetName": "Gutkowski Mount",
+        "quadKey": "023112131131",
+        "assetOwner": "90430"
+    },
+    {
+        "assetName": "Jakob Way",
+        "quadKey": "023112131132",
+        "assetOwner": "2448"
+    },
+    {
+        "assetName": "Cremin Lights",
+        "quadKey": "023112131133",
+        "assetOwner": "572"
+    },
+    {
+        "assetName": "Jaida Glen",
+        "quadKey": "023112133201",
+        "assetOwner": "3319"
+    },
+    {
+        "assetName": "Heaven Curve",
+        "quadKey": "023112132320",
+        "assetOwner": "67873"
+    },
+    {
+        "assetName": "Marvin Cove",
+        "quadKey": "023112132321",
+        "assetOwner": "5130"
+    },
+    {
+        "assetName": "Tatyana Run",
+        "quadKey": "023112132322",
+        "assetOwner": "2043"
+    },
+    {
+        "assetName": "Mante Oval",
+        "quadKey": "023112132323",
+        "assetOwner": "8549"
+    },
+    {
+        "assetName": "Darby Lodge",
+        "quadKey": "023112320110",
+        "assetOwner": "6983"
+    },
+    {
+        "assetName": "Alfredo Motorway",
+        "quadKey": "023112320111",
+        "assetOwner": "811"
+    },
+    {
+        "assetName": "Marcela Centers",
+        "quadKey": "023112131303",
+        "assetOwner": "8691"
+    },
+    {
+        "assetName": "Hirthe Stream",
+        "quadKey": "023112131302",
+        "assetOwner": "9100"
+    },
+    {
+        "assetName": "Elenore Squares",
+        "quadKey": "023112131301",
+        "assetOwner": "083"
+    },
+    {
+        "assetName": "Ekirts Onramp",
+        "quadKey": "120202111223",
+        "assetOwner": "5124"
+    },
+    {
+        "assetName": "Baker Cliff",
+        "quadKey": "023112131300",
+        "assetOwner": "55380"
+    },
+    {
+        "assetName": "Reilly Hills",
+        "quadKey": "023112302330",
+        "assetOwner": "6167"
+    },
+    {
+        "assetName": "Ayden Lights",
+        "quadKey": "023112131231",
+        "assetOwner": "51081"
+    },
+    {
+        "assetName": "Eliga Loop",
+        "quadKey": "023112131123",
+        "assetOwner": "152"
+    },
+    {
+        "assetName": "Stark Dam",
+        "quadKey": "023112320101",
+        "assetOwner": "4709"
+    },
+    {
+        "assetName": "Evalyn Tunnel",
+        "quadKey": "023112320100",
+        "assetOwner": "22521"
+    },
+    {
+        "assetName": "Sylvan Shore",
+        "quadKey": "023112132330",
+        "assetOwner": "514"
+    },
+    {
+        "assetName": "Willms Streets",
+        "quadKey": "023112131033",
+        "assetOwner": "96072"
+    },
+    {
+        "assetName": "Quigley Orchard",
+        "quadKey": "023112320002",
+        "assetOwner": "3133"
+    },
+    {
+        "assetName": "Raynor Avenue",
+        "quadKey": "023112320003",
+        "assetOwner": "132"
+    },
+    {
+        "assetName": "Glenda Circle",
+        "quadKey": "023112231123",
+        "assetOwner": "003"
+    },
+    {
+        "assetName": "Augusta Freeway",
+        "quadKey": "023112310302",
+        "assetOwner": "4626"
+    },
+    {
+        "assetName": "Simeon Stravenue",
+        "quadKey": "023112310303",
+        "assetOwner": "47952"
+    },
+    {
+        "assetName": "Abernathy Walks",
+        "quadKey": "023112131112",
+        "assetOwner": "04755"
+    },
+    {
+        "assetName": "Aspen Rapid",
+        "quadKey": "023112131113",
+        "assetOwner": "2835"
+    },
+    {
+        "assetName": "Reichert Gateway",
+        "quadKey": "023112131111",
+        "assetOwner": "972"
+    },
+    {
+        "assetName": "Neal Village",
+        "quadKey": "023112303010",
+        "assetOwner": "4444"
+    },
+    {
+        "assetName": "Blick Island",
+        "quadKey": "023112303011",
+        "assetOwner": "11270"
+    },
+    {
+        "assetName": "Harlow Ridge",
+        "quadKey": "023112303012",
+        "assetOwner": "07724"
+    },
+    {
+        "assetName": "Effertz Center",
+        "quadKey": "023112303013",
+        "assetOwner": "585"
+    },
+    {
+        "assetName": "Kertzmann Meadow",
+        "quadKey": "023112312012",
+        "assetOwner": "215"
+    },
+    {
+        "assetName": "Howell Dale",
+        "quadKey": "023112312013",
+        "assetOwner": "2620"
+    },
+    {
+        "assetName": "Volkman Highway",
+        "quadKey": "023112312010",
+        "assetOwner": "89860"
+    },
+    {
+        "assetName": "Hauck Station",
+        "quadKey": "023112312011",
+        "assetOwner": "565"
+    },
+    {
+        "assetName": "King Run",
+        "quadKey": "023112132302",
+        "assetOwner": "6849"
+    },
+    {
+        "assetName": "Cephus Oval",
+        "quadKey": "023112132301",
+        "assetOwner": "2714"
+    },
+    {
+        "assetName": "Smitham Summit",
+        "quadKey": "023112320001",
+        "assetOwner": "92843"
+    },
+    {
+        "assetName": "Harber Skyway",
+        "quadKey": "023112310231",
+        "assetOwner": "647"
+    },
+    {
+        "assetName": "Cyntha Fords",
+        "quadKey": "023112133301",
+        "assetOwner": "52731"
+    },
+    {
+        "assetName": "Langworth Orchard",
+        "quadKey": "023112131211",
+        "assetOwner": "084"
+    },
+    {
+        "assetName": "Jorja Ramp",
+        "quadKey": "023112131213",
+        "assetOwner": "9656"
+    },
+    {
+        "assetName": "Cortney Causeway",
+        "quadKey": "023112131320",
+        "assetOwner": "23837"
+    },
+    {
+        "assetName": "Steuber Creek",
+        "quadKey": "023112131322",
+        "assetOwner": "41396"
+    },
+    {
+        "assetName": "Tasia Springs",
+        "quadKey": "023112132311",
+        "assetOwner": "8123"
+    },
+    {
+        "assetName": "Bernie Corner",
+        "quadKey": "023112132313",
+        "assetOwner": "706"
+    },
+    {
+        "assetName": "Willodean Branch",
+        "quadKey": "023112132312",
+        "assetOwner": "662"
+    },
+    {
+        "assetName": "McKenzie Spurs",
+        "quadKey": "023112131321",
+        "assetOwner": "98209"
+    },
+    {
+        "assetName": "Amerigo Grove",
+        "quadKey": "023112320013",
+        "assetOwner": "5166"
+    },
+    {
+        "assetName": "Dezzie Radial",
+        "quadKey": "023112320012",
+        "assetOwner": "2721"
+    },
+    {
+        "assetName": "Arnav Fields",
+        "quadKey": "023112320011",
+        "assetOwner": "621"
+    },
+    {
+        "assetName": "White Estates",
+        "quadKey": "023112320010",
+        "assetOwner": "3593"
+    },
+    {
+        "assetName": "Roxanne Ports",
+        "quadKey": "023112133202",
+        "assetOwner": "05742"
+    },
+    {
+        "assetName": "McClure Ford",
+        "quadKey": "023112310322",
+        "assetOwner": "035"
+    },
+    {
+        "assetName": "Bridget Port",
+        "quadKey": "023112310323",
+        "assetOwner": "941"
+    },
+    {
+        "assetName": "O'Connell Cape",
+        "quadKey": "023112312100",
+        "assetOwner": "03575"
+    },
+    {
+        "assetName": "Donn Trafficway",
+        "quadKey": "023112320022",
+        "assetOwner": "491"
+    },
+    {
+        "assetName": "Esther Valley",
+        "quadKey": "023112320023",
+        "assetOwner": "6403"
+    },
+    {
+        "assetName": "Thiel Meadows",
+        "quadKey": "023112320020",
+        "assetOwner": "95392"
+    },
+    {
+        "assetName": "Denis Meadows",
+        "quadKey": "023112320021",
+        "assetOwner": "55708"
+    },
+    {
+        "assetName": "White Trace",
+        "quadKey": "023112133211",
+        "assetOwner": "605"
+    },
+    {
+        "assetName": "Julian Walks",
+        "quadKey": "023112133210",
+        "assetOwner": "855"
+    },
+    {
+        "assetName": "Milburn Loop",
+        "quadKey": "023112310312",
+        "assetOwner": "9896"
+    },
+    {
+        "assetName": "Beer Freeway",
+        "quadKey": "023112131032",
+        "assetOwner": "31010"
+    },
+    {
+        "assetName": "Cummerata Summit",
+        "quadKey": "023112303120",
+        "assetOwner": "61057"
+    },
+    {
+        "assetName": "Mitchell Corners",
+        "quadKey": "023112303121",
+        "assetOwner": "118"
+    },
+    {
+        "assetName": "Braun Circle",
+        "quadKey": "023112320031",
+        "assetOwner": "704"
+    },
+    {
+        "assetName": "Schiller Place",
+        "quadKey": "023112320030",
+        "assetOwner": "65723"
+    },
+    {
+        "assetName": "Elease Estates",
+        "quadKey": "023112320032",
+        "assetOwner": "27359"
+    },
+    {
+        "assetName": "Dach Village",
+        "quadKey": "023112132113",
+        "assetOwner": "015"
+    },
+    {
+        "assetName": "Tula Summit",
+        "quadKey": "023112132112",
+        "assetOwner": "77807"
+    },
+    {
+        "assetName": "Jenny Freeway",
+        "quadKey": "023112132111",
+        "assetOwner": "48707"
+    },
+    {
+        "assetName": "Halvorson Port",
+        "quadKey": "023112133220",
+        "assetOwner": "11865"
+    },
+    {
+        "assetName": "Dach Course",
+        "quadKey": "023112312120",
+        "assetOwner": "3719"
+    },
+    {
+        "assetName": "Stefanie Street",
+        "quadKey": "023112303222",
+        "assetOwner": "59276"
+    },
+    {
+        "assetName": "Bogan Corners",
+        "quadKey": "023112303220",
+        "assetOwner": "8412"
+    },
+    {
+        "assetName": "Schmeler Ports",
+        "quadKey": "023112231320",
+        "assetOwner": "4830"
+    },
+    {
+        "assetName": "Kierra Place",
+        "quadKey": "023112231321",
+        "assetOwner": "5992"
+    },
+    {
+        "assetName": "Hauck Lakes",
+        "quadKey": "023112132310",
+        "assetOwner": "459"
+    },
+    {
+        "assetName": "Dee Plains",
+        "quadKey": "023112132233",
+        "assetOwner": "5320"
+    },
+    {
+        "assetName": "Sharif Key",
+        "quadKey": "023112132231",
+        "assetOwner": "66868"
+    },
+    {
+        "assetName": "Neha Shores",
+        "quadKey": "023112303103",
+        "assetOwner": "37771"
+    },
+    {
+        "assetName": "Macey Drive",
+        "quadKey": "023112303101",
+        "assetOwner": "555"
+    },
+    {
+        "assetName": "Hermiston Fork",
+        "quadKey": "023112302313",
+        "assetOwner": "530"
+    },
+    {
+        "assetName": "Hoeger Plains",
+        "quadKey": "023112133123",
+        "assetOwner": "76858"
+    },
+    {
+        "assetName": "Toy Center",
+        "quadKey": "023112132131",
+        "assetOwner": "59421"
+    },
+    {
+        "assetName": "Rogahn Trafficway",
+        "quadKey": "023112132130",
+        "assetOwner": "758"
+    },
+    {
+        "assetName": "Kozey Trafficway",
+        "quadKey": "023112132133",
+        "assetOwner": "6580"
+    },
+    {
+        "assetName": "Talan Cliff",
+        "quadKey": "023112132132",
+        "assetOwner": "61001"
+    },
+    {
+        "assetName": "Suellen Fall",
+        "quadKey": "023112301333",
+        "assetOwner": "512"
+    },
+    {
+        "assetName": "Hand Inlet",
+        "quadKey": "023112301332",
+        "assetOwner": "2818"
+    },
+    {
+        "assetName": "Buddy Burgs",
+        "quadKey": "023112301331",
+        "assetOwner": "178"
+    },
+    {
+        "assetName": "Larson Isle",
+        "quadKey": "023112303110",
+        "assetOwner": "84393"
+    },
+    {
+        "assetName": "Klein Mission",
+        "quadKey": "023112303112",
+        "assetOwner": "0179"
+    },
+    {
+        "assetName": "Renaldo River",
+        "quadKey": "023112303200",
+        "assetOwner": "74082"
+    },
+    {
+        "assetName": "Micah Lodge",
+        "quadKey": "023112303202",
+        "assetOwner": "69242"
+    },
+    {
+        "assetName": "Erick Lights",
+        "quadKey": "023112231302",
+        "assetOwner": "46201"
+    },
+    {
+        "assetName": "Cronin Isle",
+        "quadKey": "023112231303",
+        "assetOwner": "8652"
+    },
+    {
+        "assetName": "Sarahi Islands",
+        "quadKey": "023112231301",
+        "assetOwner": "234"
+    },
+    {
+        "assetName": "Wolf Locks",
+        "quadKey": "023112310121",
+        "assetOwner": "6664"
+    },
+    {
+        "assetName": "Frankie Mountains",
+        "quadKey": "023112133203",
+        "assetOwner": "62110"
+    },
+    {
+        "assetName": "Doreen Ridges",
+        "quadKey": "023112132333",
+        "assetOwner": "4344"
+    },
+    {
+        "assetName": "Grimes Extensions",
+        "quadKey": "023112302332",
+        "assetOwner": "723"
+    },
+    {
+        "assetName": "Nikolai Fords",
+        "quadKey": "023112302333",
+        "assetOwner": "46360"
+    },
+    {
+        "assetName": "Rogahn Inlet",
+        "quadKey": "023112302331",
+        "assetOwner": "674"
+    },
+    {
+        "assetName": "Welch Tunnel",
+        "quadKey": "023112231310",
+        "assetOwner": "269"
+    },
+    {
+        "assetName": "Nanie Loaf",
+        "quadKey": "023112133020",
+        "assetOwner": "3685"
+    },
+    {
+        "assetName": "Ardyce Lights",
+        "quadKey": "023112133021",
+        "assetOwner": "3781"
+    },
+    {
+        "assetName": "Arely Parkway",
+        "quadKey": "023112133022",
+        "assetOwner": "7052"
+    },
+    {
+        "assetName": "Schulist Lodge",
+        "quadKey": "023112133023",
+        "assetOwner": "015"
+    },
+    {
+        "assetName": "Edie Lodge",
+        "quadKey": "023112302321",
+        "assetOwner": "5014"
+    },
+    {
+        "assetName": "Denesik Fall",
+        "quadKey": "023112302323",
+        "assetOwner": "8212"
+    },
+    {
+        "assetName": "Gleason Route",
+        "quadKey": "023112302322",
+        "assetOwner": "55860"
+    },
+    {
+        "assetName": "Fumiko Plaza",
+        "quadKey": "023112310320",
+        "assetOwner": "108"
+    },
+    {
+        "assetName": "Huel Drives",
+        "quadKey": "023112310321",
+        "assetOwner": "21771"
+    },
+    {
+        "assetName": "Dibbert Village",
+        "quadKey": "023112132211",
+        "assetOwner": "992"
+    },
+    {
+        "assetName": "Rodriguez Motorway",
+        "quadKey": "023112133033",
+        "assetOwner": "3002"
+    },
+    {
+        "assetName": "Luvinia Union",
+        "quadKey": "023112133032",
+        "assetOwner": "7100"
+    },
+    {
+        "assetName": "Quitzon Union",
+        "quadKey": "023112133030",
+        "assetOwner": "141"
+    },
+    {
+        "assetName": "Boyle Cape",
+        "quadKey": "023112310103",
+        "assetOwner": "94908"
+    },
+    {
+        "assetName": "Lukas Square",
+        "quadKey": "023112310100",
+        "assetOwner": "0668"
+    },
+    {
+        "assetName": "Block Corners",
+        "quadKey": "023112310101",
+        "assetOwner": "5645"
+    },
+    {
+        "assetName": "Block Corners",
+        "quadKey": "111110300210",
+        "assetOwner": "5645"
+    }
+]

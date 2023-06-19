@@ -33,7 +33,7 @@ If the code needs to scale to handle many more users or more frequent strikes, y
 
 To use Lightning Alert, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/lightning-alert.git`
+1. Clone the repository: `https://github.com/CarlosGatti/lightning-alert.git`
 2. Navigate to the project directory: `cd lightning-alert`
 3. Install the dependencies: `npm install`
 

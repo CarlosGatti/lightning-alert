@@ -2,6 +2,16 @@
 
 Lightning Alert is a project that processes lightning events and generates alerts for affected assets. It provides functionalities for reading lightning events, converting coordinates to quadKeys, checking if a strike has occurred for a particular asset, and generating alerts based on lightning events and assets.
 
+## Table of Contents
+- [Concept](#concept)
+- [Scaling and Performance Improvements](#scaling-and-performance-improvements)
+- [Installation](#installation)
+- [Usage](#usage)
+    - [Conversion of Coordinates to QuadKeys](#conversion-of-coordinates-to-quadkeys)
+- [Folder Structure](#folder-structure)
+- [Dependencies](#dependencies)
+- [Getting Started](#getting-started)
+
 ## Concept
 
 The term "QuadKey" is derived from "quadtree key." It represents a unique code that encodes a square region in latitude and longitude space, organized by different levels of detail. At the initial level, the entire mapable surface of the Earth is divided into four QuadKeys. Think of it as a zoom level that provides a view of the entire world. Each QuadKey is represented by a single-digit code, ranging from zero to three.
@@ -107,3 +117,5 @@ The project has the following dependencies:
     3 - Install the dependencies: npm install or yarn install
     4 - Run the tests: npm test or yarn test
     5 - Start the application: node index.js
+
+

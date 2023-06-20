@@ -147,7 +147,5 @@ We hope that Lightning Alert proves to be useful for your needs. Feel free to ex
 
 If you have any questions or encounter any issues, please don't hesitate to reach out to the development team.
 
-Thank you for using Lightning Alert!
-
 
 

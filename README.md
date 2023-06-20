@@ -11,6 +11,7 @@ Lightning Alert is a project that processes lightning events and generates alert
 - [Folder Structure](#folder-structure)
 - [Dependencies](#dependencies)
 - [Getting Started](#getting-started)
+- [Lightning Alerts Result](#lightning-alerts-result)
 - [Conclusion](#conclusion)
 
 ## Concept
@@ -120,6 +121,21 @@ The project has the following dependencies:
     4 - Run the tests: npm test or yarn test
     5 - Start the application: npm start or yarn start
 
+
+## Lightning Alerts Result
+
+```
+Total Lightning Alerts: 2
+
+- Asset: 0002 - DTN Test 2
+  Location: 4.9678, -72.688
+---------------------------------
+- Asset: 0001 - DTN Test 1
+  Location: 11.03, 96.5556
+---------------------------------
+
+Done
+```
 
 ## Conclusion
 

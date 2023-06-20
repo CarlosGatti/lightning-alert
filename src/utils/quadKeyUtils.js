@@ -21,6 +21,6 @@ function convertToQuadKey(latitude, longitude, precision) {
       quadKey += currentBit.toString();
     }
   
-    return
+    return quadKey;
 }
   

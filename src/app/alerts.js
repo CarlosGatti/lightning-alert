@@ -54,12 +54,12 @@ function generateAlerts(lightningEvents, assets) {
       currentBit = 0;
       const mask = 1 << (zoom - i - 1);
   
-      // Verifica se o bit correspondente a longitude está ativo
+      // verify if the bit corresponding to longitude is active
       if ((lon & mask) !== 0) {
         currentBit++;
       }
   
-      // Verifica se o bit correspondente a latitude está ativo
+      // verify if the bit corresponding to latitude is active
       if ((lat & mask) !== 0) {
         currentBit += 2;
       }

@@ -12,6 +12,7 @@ Lightning Alert is a project that processes lightning events and generates alert
 - [Dependencies](#dependencies)
 - [Getting Started](#getting-started)
 - [Lightning Alerts Result](#lightning-alerts-result)
+- [Monitor](#monitor)
 - [Conclusion](#conclusion)
 
 ## Concept
@@ -83,6 +84,7 @@ The project follows the following folder structure:
 |   |   |- lightning.js
 |   |   |- assets.js
 |   |   |- alerts.js
+|   |   |- monitor.js
 |   |- utils
 |   |   |- jsonUtils.js
 |   |   |- quadKeyUtils.js
@@ -136,6 +138,9 @@ Total Lightning Alerts: 2
 
 Done
 ```
+
+## Monitor
+The monitoring functionality implemented in the code allows you to keep track of changes in the data/lightning.json file. By setting up a file watch using the fs.watchFile function, the code detects modifications to the file. When changes occur, a callback function is triggered, checking if the current modified time of the file is greater than the previous modified time. If a change is detected, the lightning events and assets are read from their respective sources using the readLightningEvents and readAssets functions. Finally, the generateAlerts function is called with the updated lightning events and assets to process the data and generate any necessary alerts. This monitoring mechanism ensures that the system stays up to date with the latest data in the data/lightning.json file.
 
 ## Conclusion
 

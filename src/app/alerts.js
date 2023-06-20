@@ -1,27 +1,43 @@
 function generateAlerts(lightningEvents, assets) {
-    const processedAssets = new Set();
-  
-    for (const event of lightningEvents) {
-      for (const asset of assets) {
-        if (
-          hasStrikeOccurredForAsset(event, asset) &&
-          !processedAssets.has(asset.assetOwner)
-        ) {
-          // return lat and long of strike do create a test
-          console.log(`lightning strike at ${event.latitude}:${event.longitude}`);
+  const processedAssets = new Set();
+  const alerts = [];
 
-          console.log(`lightning alert for ${asset.assetOwner}:${asset.assetName}`);
-          processedAssets.add(asset.assetOwner);
-          break;
-        }
+  for (const event of lightningEvents) {
+    for (const asset of assets) {
+      if (
+        hasStrikeOccurredForAsset(event, asset) &&
+        !processedAssets.has(asset.assetOwner)
+      ) {
+        processedAssets.add(asset.assetOwner);
+        alerts.push({
+          assetOwner: asset.assetOwner,
+          assetName: asset.assetName,
+          latitude: event.latitude,
+          longitude: event.longitude
+        });
+        break;
       }
     }
   }
+
+  // Show alerts
+  console.log('Lightning Alerts Total:' + alerts.length + '\n');
+  for (const alert of alerts) {
+    console.log(`- Asset: ${alert.assetOwner}:${alert.assetName}`);
+    console.log(`  Location: ${alert.latitude}:${alert.longitude}`);
+
+    if(alerts.length > 1){
+      console.log(`---------------------------------`);
+    }
+
+  }
+}
+
   
   function hasStrikeOccurredForAsset(strike, asset) {
     const assetQuadKey = asset.quadKey;
     const strikeQuadKey = convertToQuadKey(strike.latitude, strike.longitude, assetQuadKey.length);
-  
+
     return assetQuadKey === strikeQuadKey;
   }
   

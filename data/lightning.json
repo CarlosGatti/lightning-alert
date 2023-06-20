@@ -15254,3 +15254,5 @@
 {"flashType":0,"strikeTime":1446761134070,"latitude":-3.946,"longitude":150.1392,"peakAmps":30132,"reserved":"000","icHeight":0,"receivedTime":1446761145726,"numberOfSensors":5,"multiplicity":1}
 {"flashType":0,"strikeTime":1446761134729,"latitude":21.6229,"longitude":-80.7711,"peakAmps":-19353,"reserved":"000","icHeight":0,"receivedTime":1446761145765,"numberOfSensors":5,"multiplicity":1}
 {"flashType":0,"strikeTime":1446761134638,"latitude":-9.7236,"longitude":-63.6317,"peakAmps":-21866,"reserved":"000","icHeight":0,"receivedTime":1446761145765,"numberOfSensors":7,"multiplicity":1}
+{"flashType":0,"strikeTime":1446761134638,"latitude":-9.7236,"longitude":-63.6317,"peakAmps":-21866,"reserved":"000","icHeight":0,"receivedTime":1446761145765,"numberOfSensors":7,"multiplicity":1}
+{"flashType":0,"strikeTime":1446760909202,"latitude":11.03,"longitude":96.5556,"peakAmps":30564,"reserved":"000","icHeight":0,"receivedTime":1446760921278,"numberOfSensors":6,"multiplicity":1}

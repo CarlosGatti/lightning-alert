@@ -111,13 +111,14 @@ The project has the following dependencies:
 
     readline: Version 1.3.0
     jest: Version 29.5.0 (dev dependency)
+    nodemon: Version ^2.0.22"
 
 ## Getting Started
     1 - Clone the repository: git clone <repository-url>
     2 - Navigate to the project directory: cd lightning-alert
     3 - Install the dependencies: npm install or yarn install
     4 - Run the tests: npm test or yarn test
-    5 - Start the application: node index.js
+    5 - Start the application: npm start or yarn start
 
 
 ## Conclusion

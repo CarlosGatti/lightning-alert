@@ -2,7 +2,9 @@ const fs = require('fs');
 const { isValidJSON } = require('../utils/jsonUtils');
 
 function readAssets() {
+
   const assetsData = fs.readFileSync('data/assets.json', 'utf-8');
+
   let assets = [];
 
   if (isValidJSON(assetsData)) {

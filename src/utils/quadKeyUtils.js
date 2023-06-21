@@ -16,6 +16,7 @@ function convertToQuadKey(latitude, longitude, precision) {
     }
 
     if ((lat & mask) !== 0) {
+
       currentBit += 2;
     }
 
@@ -24,3 +25,7 @@ function convertToQuadKey(latitude, longitude, precision) {
 
   return quadKey; 
 }
+
+module.exports = {
+  convertToQuadKey,
+};

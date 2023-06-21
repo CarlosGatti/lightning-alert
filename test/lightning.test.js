@@ -1,5 +1,5 @@
 const { readLightningEvents } = require('../src/app/lightning');
-const { convertToQuadKey } = require('../src/app/alerts');
+const { convertToQuadKey } = require('../src/utils/quadKeyUtils');
 
 describe('Lightning Module', () => {
   describe('readLightningEvents', () => {

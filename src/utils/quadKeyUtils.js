@@ -16,7 +16,6 @@ function convertToQuadKey(latitude, longitude, precision) {
     }
 
     if ((lat & mask) !== 0) {
-
       currentBit += 2;
     }
 

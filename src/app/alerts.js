@@ -42,12 +42,10 @@ function generateAlerts(lightningEvents, assets) {
 function hasStrikeOccurredForAsset(strike, asset) {
   const assetQuadKey = asset.quadKey;
   const strikeQuadKey = convertToQuadKey(strike.latitude, strike.longitude, assetQuadKey.length);
-
-  return assetQuadKey === strikeQuadKey; // Compare the quad keys
+  return assetQuadKey == strikeQuadKey; // Compare the quad keys
 }
 
 module.exports = {
   generateAlerts,
-  // convertToQuadKey,
   hasStrikeOccurredForAsset,
 };

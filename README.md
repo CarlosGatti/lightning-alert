@@ -3,8 +3,8 @@
 Lightning Alert is a project that processes lightning events and generates alerts for affected assets. It provides functionalities for reading lightning events, converting coordinates to quadKeys, checking if a strike has occurred for a particular asset, and generating alerts based on lightning events and assets.
 
 ## Table of Contents
+- [Task](#task)
 - [Concept](#concept)
-- [Scaling and Performance Improvements](#scaling-and-performance-improvements)
 - [Installation](#installation)
 - [Usage](#usage)
     - [Conversion of Coordinates to QuadKeys](#conversion-of-coordinates-to-quadkeys)
@@ -12,8 +12,60 @@ Lightning Alert is a project that processes lightning events and generates alert
 - [Dependencies](#dependencies)
 - [Getting Started](#getting-started)
 - [Lightning Alerts Result](#lightning-alerts-result)
+- [Scaling and Performance Improvements](#scaling-and-performance-improvements)
 - [Monitor](#monitor)
 - [Conclusion](#conclusion)
+
+## Task
+Write a program that reads lightning events data as a stream from standard input (one lightning strike per line as a JSON object, and matches that data against a source of assets (also in JSON format) to produce an alert.
+
+An example 'strike' coming off of the exchange looks like this:
+```
+{
+    "flashType": 1,
+    "strikeTime": 1386285909025,
+    "latitude": 33.5524951,
+    "longitude": -94.5822016,
+    "peakAmps": 15815,
+    "reserved": "000",
+    "icHeight": 8940,
+    "receivedTime": 1386285919187,
+    "numberOfSensors": 17,
+    "multiplicity": 1
+}
+```
+Where:
+ - flashType=(0='cloud to ground', 1='cloud to cloud', 9='heartbeat')
+ - strikeTime=the number of milliseconds since January 1, 1970, 00:00:00 GMT
+
+ Note
+ - A 'heartbeat' flashType is not a lightning strike. It is used internally by the software to maintain connection.
+
+    An example of an 'asset' is as follows:
+```
+  {
+    "assetName":"Dante Street",
+    "quadKey":"023112133033",
+    "assetOwner":"6720"
+  }
+```
+For this purpose, you can assume that all asset locations are at a zoom level of '12'.
+
+For each strike received, you should simply print to the console the following message:
+```
+lightning alert for <assetOwner>:<assetName>
+```
+
+But substituting the proper assetOwner and assetName.
+
+i.e.:
+```
+lightning alert for 6720:Dante Street
+```
+
+For more detailed information about Task, you can check the repo [dtn][dtn].
+
+[dtn]: https://bitbucket.org/dtnse/lightning-alert/src/master/
 
 ## Concept
 
@@ -26,21 +78,6 @@ For more detailed information about QuadKeys, you can refer to the official [Mic
 [quadkeys-doc]: https://docs.microsoft.com/en-us/bingmaps/articles/bing-maps-tile-system
 
 ![Descrição da Imagem](docs/grid.jpeg)
-
-## Scaling and Performance Improvements
-If the code needs to scale to handle many more users or more frequent strikes, you can consider implementing the following performance improvements:
-
-1. Optimizing the data structures used: Analyze if there are more efficient data structures that can be used to store and query the lightning events and assets. One such system is H3, a hierarchical hexagonal geospatial indexing system developed by Uber. H3 uses hexagons instead of squares to represent spatial regions, providing more flexibility and efficiency in spatial operations.
-
-2. Caching and memoization: Implement caching mechanisms to store computed results for faster access, especially for repetitive operations or expensive calculations. Caching can help avoid redundant computations and improve response times, especially for scenarios where lightning events or assets don't frequently change.
-
-3. Parallel processing: Investigate if the code can benefit from parallelization. Identify independent operations or calculations that can be executed concurrently, utilizing multiple CPU cores effectively. Parallel processing can lead to significant performance gains, especially when dealing with large datasets or computationally intensive tasks.
-
-4. Database optimizations: If the size of the data becomes large or the application requires complex querying, consider using a database system for efficient data storage, indexing, and querying. Geospatial databases or indexing techniques, such as quadtree or R-tree, can provide optimized spatial querying capabilities.
-
-5. Algorithmic optimizations: Evaluate if there are any algorithmic improvements that can reduce the computational complexity of critical operations. This could involve optimizing search algorithms, spatial algorithms, or aggregations. Analyze time and space complexity, and consider alternative algorithms or data structures that offer better performance characteristics.
-
-6. Profiling and monitoring: Measure the performance of the code using profiling tools and identify bottlenecks. Continuously monitor and analyze the system's performance to detect and address any performance issues. Profiling can help pinpoint specific areas of the code that require optimization and guide your efforts in improving performance.
 
 ## Installation
 
@@ -138,6 +175,21 @@ Total Lightning Alerts: 2
 
 Done
 ```
+
+## Scaling and Performance Improvements
+If the code needs to scale to handle many more users or more frequent strikes, you can consider implementing the following performance improvements:
+
+1. Optimizing the data structures used: Analyze if there are more efficient data structures that can be used to store and query the lightning events and assets. One such system is H3, a hierarchical hexagonal geospatial indexing system developed by Uber. H3 uses hexagons instead of squares to represent spatial regions, providing more flexibility and efficiency in spatial operations.
+
+2. Caching and memoization: Implement caching mechanisms to store computed results for faster access, especially for repetitive operations or expensive calculations. Caching can help avoid redundant computations and improve response times, especially for scenarios where lightning events or assets don't frequently change.
+
+3. Parallel processing: Investigate if the code can benefit from parallelization. Identify independent operations or calculations that can be executed concurrently, utilizing multiple CPU cores effectively. Parallel processing can lead to significant performance gains, especially when dealing with large datasets or computationally intensive tasks.
+
+4. Database optimizations: If the size of the data becomes large or the application requires complex querying, consider using a database system for efficient data storage, indexing, and querying. Geospatial databases or indexing techniques, such as quadtree or R-tree, can provide optimized spatial querying capabilities.
+
+5. Algorithmic optimizations: Evaluate if there are any algorithmic improvements that can reduce the computational complexity of critical operations. This could involve optimizing search algorithms, spatial algorithms, or aggregations. Analyze time and space complexity, and consider alternative algorithms or data structures that offer better performance characteristics.
+
+6. Profiling and monitoring: Measure the performance of the code using profiling tools and identify bottlenecks. Continuously monitor and analyze the system's performance to detect and address any performance issues. Profiling can help pinpoint specific areas of the code that require optimization and guide your efforts in improving performance.
 
 ## Monitor
 The monitoring functionality implemented in the code allows you to keep track of changes in the data/lightning.json file. By setting up a file watch using the fs.watchFile function, the code detects modifications to the file. When changes occur, a callback function is triggered, checking if the current modified time of the file is greater than the previous modified time. If a change is detected, the lightning events and assets are read from their respective sources using the readLightningEvents and readAssets functions. Finally, the generateAlerts function is called with the updated lightning events and assets to process the data and generate any necessary alerts. This monitoring mechanism ensures that the system stays up to date with the latest data in the data/lightning.json file.

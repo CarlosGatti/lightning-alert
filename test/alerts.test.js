@@ -37,7 +37,7 @@ describe('Alerts Module', () => {
 
       generateAlerts(lightningEvents, assets);
 
-      expect(consoleLogSpy).toHaveBeenCalledTimes(3);
+       expect(consoleLogSpy).toHaveBeenCalledTimes(3);
 
       consoleLogSpy.mockRestore();
     });

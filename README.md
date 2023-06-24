@@ -63,10 +63,6 @@ i.e.:
 lightning alert for 6720:Dante Street
 ```
 
-For more detailed information about Task, you can check the repo [dtn][dtn].
-
-[dtn]: https://bitbucket.org/dtnse/lightning-alert/src/master/
-
 ## Concept
 
 The term "QuadKey" is derived from "quadtree key." It represents a unique code that encodes a square region in latitude and longitude space, organized by different levels of detail. At the initial level, the entire mapable surface of the Earth is divided into four QuadKeys. Think of it as a zoom level that provides a view of the entire world. Each QuadKey is represented by a single-digit code, ranging from zero to three.
@@ -166,10 +162,10 @@ The project has the following dependencies:
 ```
 Total Lightning Alerts: 2
 
-- Asset: 0002 - DTN Test 2
+- Asset: 0002 - Owner: Test 2
   Location: 4.9678, -72.688
 ---------------------------------
-- Asset: 0001 - DTN Test 1
+- Asset: 0001 - Owner: Test 1
   Location: 11.03, 96.5556
 ---------------------------------
 

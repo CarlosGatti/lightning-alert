@@ -31,6 +31,7 @@ function generateAlerts(lightningEvents, assets) {
   for (const alert of alerts) {
     console.log(`- Asset: ${alert.assetOwner}:${alert.assetName}`);
     console.log(`  Location: ${alert.latitude}:${alert.longitude}`);
+    console.log(`  QuadKey: ${convertToQuadKey(alert.latitude, alert.longitude, 12)}`);
 
     if (alerts.length > 1) {
       console.log(`---------------------------------`);
@@ -42,7 +43,7 @@ function generateAlerts(lightningEvents, assets) {
 function hasStrikeOccurredForAsset(strike, asset) {
   const assetQuadKey = asset.quadKey;
   const strikeQuadKey = convertToQuadKey(strike.latitude, strike.longitude, assetQuadKey.length);
-  return assetQuadKey == strikeQuadKey; // Compare the quad keys
+  return assetQuadKey === strikeQuadKey; // Compare the quad keys
 }
 
 module.exports = {
